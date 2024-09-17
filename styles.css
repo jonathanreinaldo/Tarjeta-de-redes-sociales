@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+body{
+    height: 100vh;
+    background-color:#141414; 
+}
+ 
+.contenedor{ 
+    height:100vh ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}  
+
+#columna{ 
+    width: 20rem;
+    display: grid; 
+    height: 32.7rem;
+    border-radius: 15px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    background-color: #3535359c;
+}
+
+.circulo{ 
+    display: flex;
+    height: 10.6rem;
+    border-radius: 136%;
+    justify-content: center;
+} 
+
+img{
+    width: 5rem;
+    height:5rem;
+    border-radius: 8rem;
+}
+.titulo{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: -7rem;
+}
+
+.subtitulo{
+    color: #c4ff55;
+    font-size: 0.8rem;
+    margin-top: -4rem;
+}
+
+.parrafo{
+    color:white;
+    font-size: 12px;
+    margin-top: 0rem;
+}
+ 
+#seleccionar-botones{
+    display: flex;
+    margin-top: -41px;
+    flex-direction: column;
+}
+
+a{
+text-decoration: none;
+}
+
+button{
+    width: 17rem;
+    display: flex;
+    height: 2.4rem; 
+    color: white; 
+    flex-wrap: wrap;
+    margin: -0.1rem;
+    align-items: center;
+    border-radius: 0.6rem;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    border-color: transparent;
+    background-color: #303131;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#boton-GitHub:hover, #boton-Mentor:hover, #boton-LinkedIn:hover, #boton-Twitter:hover, #boton-Instagram:hover{
+background-color: #c4ff55;;
+
+}
+@media (max-width: 360px){
+#columna{
+  height: 31rem;
+}
+}
+
+
+
